@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  max-width: 380px;
+  padding: 15px;
+  border-radius: 18px;
+}
+.initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+}
+.name-initial-container {
+  display: flex;
+  align-items: center;
+}
+.initial-letter {
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.name {
+  font-weight: 600;
+  color: #585056;
+  margin-left: 10px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  justify-content: center;
+}
+
+.your-balance-heading {
+  font-weight: 600;
+  color: #382f8a;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.amount-type-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.initial-amount {
+  font-size: 20px;
+  color: #d4d2db;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.amount-type {
+  font-size: 15px;
+  color: #382f8a;
+  font-weight: 600;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.check-sum-description {
+  color: #382f8a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.amount-details-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
